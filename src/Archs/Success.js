@@ -54,9 +54,7 @@ export default class Success extends React.Component {
                             </div>
                             <span className="text-warning">Order ID {order_Id}</span>                            
                     </div>
-                    <button className="btn btn-warning float-right mt-4 ml-4" onClick={this.finalize} >
-                                            Place a Order
-                    </button>
+                    
                 <Footer />
             </div>
         )
